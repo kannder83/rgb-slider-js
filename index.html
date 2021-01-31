@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="wrapper">
+        <p>Red</p>
+        <input type="range" min="0" max="255" value="0" id="red" />
+        <p>Green</p>
+        <input type="range" min="0" max="255" value="0" id="green" />
+        <p>Blue</p>
+        <input type="range" min="0" max="255" value="0" id="blue" />
+      </div>
+      <div class="box-text-rgb">
+        <span id="output">RGB (0,0,0)</span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
